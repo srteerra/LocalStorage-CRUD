@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (!tasks) {
     const p = document.createElement("p");
-    const text = document.createTextNode("Add a new task.");
+    const text = document.createTextNode("The list is empty, add a new task.");
     p.appendChild(text);
     tasksContainer.appendChild(p);
   } else {
@@ -23,7 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     } else {
       const p = document.createElement("p");
-      const text = document.createTextNode("Add a new task.");
+      const text = document.createTextNode(
+        "The list is empty, add a new task."
+      );
       p.appendChild(text);
       tasksContainer.appendChild(p);
     }
