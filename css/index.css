@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 0.5fr 6fr 0.5fr;
